@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Título da página -->
+        <h1>Comparação Numérica</h1>
+
+        <!-- Formulário com dois campos numéricos e um botão de envio -->
+        <form id="form">
+        <input type="number" id="n1" name="n1" placeholder="Campo A">
+        <input type="number" id="n2" name="n2" required placeholder="Campo B">
+        
+        <button type="'submit" onclick="comparar()">Comparar</button>
+        </form>
+
+        <!-- Parágrafo para exibir o resultado da comparação -->
+        <p class="resultado">
+        </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

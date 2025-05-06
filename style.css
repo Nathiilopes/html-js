@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(249, 228, 237);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    padding: 10px;
+    background-color: rgb(245, 197, 204);
+    margin: 30px;
+
+}
+
+button {
+    background-color:rgb(244, 170, 211);
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ae2781;
+}
